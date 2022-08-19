@@ -1,0 +1,65 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 30px;
+}
+.navbar ul li {
+    margin: 12px;
+}
+.navbar ul li a{
+    color: #333333;
+}
+
+/* Main */
+.main{
+    margin: 80px
+}
+.title{
+    font-family: Libre Baskerville;
+    font-size: 45px;
+}
+.consultation p{
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.color-btn{
+    font-family: Montserrat-SemiBold;
+    border: solid 0.5px #dd71c6 ;
+    display: flex;
+    align-items: center;
+    width: 204px;
+    height: 40px;
+    background: #dd71c6;
+    color: #fff;
+}
+
+.color-btn p{
+    margin: 3px;
+    padding: 4px;
+}
+
+
+
+
