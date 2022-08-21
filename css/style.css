@@ -8,16 +8,21 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #F9F9F9;
+
+}
+
 /* Navbar */
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    background-color: #ffffff;
     font-family: Montserrat;
     font-size: 14px;
 
 }
+
 .navbar ul {
     display: flex;
     flex-direction: row;
@@ -25,41 +30,99 @@
     list-style: none;
     margin: 30px;
 }
+
 .navbar ul li {
     margin: 12px;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     color: #333333;
 }
 
 /* Main */
-.main{
-    margin: 80px
+.main {
+    margin: 80px;
+
 }
-.title{
+
+.first-cont {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.first-col {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.semicircle {
+    height: 325px;
+    border-radius: 0px;
+    position: relative;
+    bottom: 10%;
+    right: 25%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(0.02deg);
+
+}
+
+.consultation {
+    width: 437px;
+    height: 272px;
+    ;
+}
+
+.title {
     font-family: Libre Baskerville;
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
     font-size: 45px;
+    line-height: 150%;
+    margin: 8px;
 }
-.consultation p{
+
+.consultation p {
     font-family: Montserrat;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    margin: 8px;
 }
-.color-btn{
+
+.color-btn {
     font-family: Montserrat-SemiBold;
-    border: solid 0.5px #dd71c6 ;
+    border: solid 0.5px #dd71c6;
     display: flex;
     align-items: center;
-    width: 204px;
+    width: 215px;
     height: 40px;
     background: #dd71c6;
     color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-.color-btn p{
-    margin: 3px;
-    padding: 4px;
+.color-btn p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 187px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }
 
-
-
-
+.third-col p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 158.4%;
+    text-align: center;
+}
